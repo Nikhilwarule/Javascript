@@ -2,22 +2,24 @@
 <head></head>
 <body>
     <div id="d1"></div>
-    
+    <div id="d2"></div>
+
     <script>
-        var Num = [10, 20, 30, 40, 50, 60, 70, 80];
-        Num.push(90);
-        Num.unshift(15);
-        Num.pop();
-        Num.shift();
-        Num.splice(1, 2, 12, 14, 16);
+        var Number = [10, 20, 30, 40, 50, 60, 70, 80];
+        Number.push(90);
+        Number.unshift(15);
+        Number.pop();
+        Number.shift();
+        Number.splice(1, 2, 12, 14, 16);
 
-        var newlist = Num.slice(2, 5);
-        Num.sort();
-        Num.reverse();
+        var newlist = Number.slice(2, 5);
+        Number.sort();
+        Number.reverse();
 
 
-        document.getElementById("d1").innerHTML = Num;
+        document.getElementById("d1").innerHTML = Number;
         document.getElementById("d2").innerHTML = newlist;
+  
     </script>
 </body>
 </html>
