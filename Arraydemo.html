@@ -1,0 +1,34 @@
+<html>
+<head></head>
+    <body>
+        <div id=" d1"></div>
+        <div id=" d2"></div>
+
+      
+
+        <script>
+            var names = ["tushar", "nilesh", "rohan", "suraj", "kishor", "amol"];
+
+            //methods push,pop,unshif,shift,slice,splice,sort,reverse
+
+            names.push("rahul");// to add at 1ast
+            names.unshift("parth");//to add at1st
+            names.unshift("rajesh");
+            names.pop();//remove the last
+            names.shift();//remove 1st
+
+            names.splice(1, 0, "ganesh", "sujeet", "vivek");//insert element bet array, at replace element
+
+            var newlist = names.slice(2, 8);
+            names.sort();
+            names.reverse();
+
+
+            document.getElementById("d1").innerHTML = names;
+            document.getElementById("d2").innerHTML = newzlist;
+
+            
+        </script>
+    </body>
+
+</html>

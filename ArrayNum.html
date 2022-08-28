@@ -1,0 +1,23 @@
+<html>
+<head></head>
+<body>
+    <div id="d1"></div>
+    
+    <script>
+        var Num = [10, 20, 30, 40, 50, 60, 70, 80];
+        Num.push(90);
+        Num.unshift(15);
+        Num.pop();
+        Num.shift();
+        Num.splice(1, 2, 12, 14, 16);
+
+        var newlist = Num.slice(2, 5);
+        Num.sort();
+        Num.reverse();
+
+
+        document.getElementById("d1").innerHTML = Num;
+        document.getElementById("d2").innerHTML = newlist;
+    </script>
+</body>
+</html>
