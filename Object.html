@@ -1,0 +1,26 @@
+<html>
+<head></head>
+<body>
+    <div id="d1"></div>
+
+    <script>
+        //remind emp is object&eid,ename,sal is properties of obj
+        var emp = {
+            eid: 101,
+            ename: "suraj",
+            salary: 35000,
+            display: function () {
+                return "eid =" + this.eid + " emp name=" + this.ename + " salary =" + this.salary;
+            },
+            calculation: function () {
+                var result;
+                result = this.salary + 500;
+                return result;
+            }
+        }
+        document.getElementById("d1").innerHTML = emp.display();
+        document.getElementById("d1").innerHTML = emp.calculation();
+
+    </script>
+</body>
+</html>
